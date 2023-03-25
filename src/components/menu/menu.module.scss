@@ -1,0 +1,77 @@
+.styles {
+  flex-grow: 10;
+  flex-shrink: 0;
+  background-color: #002b5b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  gap: 68px;
+  height: 100vh;
+  width: 15vw;
+  justify-content: start;
+  position: relative;
+  flex-wrap: nowrap;
+}
+.root {
+  flex-grow: 10;
+  flex-shrink: 0;
+  background-color: #002b5b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  gap: 68px;
+  height: 100vh;
+  width: 15vw;
+  justify-content: start;
+  position: relative;
+  flex-wrap: nowrap;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 22px;
+  color: white;
+  width: 50px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.logoImg {
+  width: 70px;
+  height: 70px;
+  display: block;
+  flex-direction: column;
+}
+.logoText {
+  font-size: 38px;
+  font-weight: 600;
+}
+.hr {
+  border: 0.5px solid #4d4b4b;
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  flex-direction: row;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 60px;
+  cursor: pointer;
+}
+
+.Menu {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: -11px;
+}
+.h4{
+  cursor: pointer;
+}

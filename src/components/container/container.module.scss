@@ -1,0 +1,113 @@
+.root {
+  flex-grow: 200;
+  flex-shrink: 200;
+  flex-direction: column;
+  display: flex;
+  align-self: baseline;
+  flex-basis: 0%;
+  position: relative;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+.Active {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  flex-wrap: wrap;
+}
+.Activelbl {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.display {
+  display: flex;
+  gap: 26px;
+  margin: 17px;
+  flex-direction: row;
+  flex-grow: 1;
+  flex-shrink: 1;
+  text-align: center;
+}
+.Active {
+  gap: 0px;
+  grid-template-columns: auto2;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 100px;
+  padding: 0px;
+  margin: 0px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 350px;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  align-content: start;
+  text-align: center;
+}
+.Cancel {
+  width: 100px;
+  flex-direction: column;
+  border: 1px solid #1a5f7a;
+  border-radius: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  height: 200px;
+  display: flex;
+  background-color: #1a5f7a;
+  color: white;
+}
+.Reschedule {
+  width: 350px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.active {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  justify-items: center;
+}
+.Activel_lbl {
+  font-size: 50px;
+}
+.Cancelled_lbl {
+  font-size: 50px;
+}
+.Reschedule_lbl {
+  font-size: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.h1 {
+  margin: 12px;
+  color: #1a5f7a;
+  overflow: auto;
+}

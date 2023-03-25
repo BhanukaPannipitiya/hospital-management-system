@@ -9,3 +9,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+.format {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
